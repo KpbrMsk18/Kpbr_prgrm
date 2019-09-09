@@ -1,0 +1,76 @@
+Started GET "/" for ::1 at 2019-09-09 23:24:46 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/masaki/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/masaki/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.2ms)
+Completed 200 OK in 29ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-09 23:24:49 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/masaki/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/masaki/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 15ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/request" for ::1 at 2019-09-09 23:24:50 +0700
+Processing by RequestController#connection as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:3000 (Connection refused - connect(2) for "localhost" port 3000)):
+  
+app/controllers/request_controller.rb:8:in `connection'
+Started GET "/request" for ::1 at 2019-09-09 23:24:52 +0700
+Processing by RequestController#connection as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:3000 (Connection refused - connect(2) for "localhost" port 3000)):
+  
+app/controllers/request_controller.rb:8:in `connection'
+Started GET "/" for ::1 at 2019-09-09 23:29:15 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/masaki/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/masaki/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 47ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-09-09 23:29:19 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/masaki/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/masaki/.rbenv/versions/2.5.0/lib/ruby/gems/2.5.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 174ms (Views: 163.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/request" for ::1 at 2019-09-09 23:29:20 +0700
+Processing by RequestController#connection as HTML
+  Rendering text template
+  Rendered text template (0.1ms)
+Completed 200 OK in 71ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/request" for ::1 at 2019-09-09 23:29:21 +0700
+Processing by RequestController#connection as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 11ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/request" for ::1 at 2019-09-09 23:29:51 +0700
+Processing by RequestController#connection as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:3000 (Connection refused - connect(2) for "localhost" port 3000)):
+  
+app/controllers/request_controller.rb:8:in `connection'
+Started GET "/request" for ::1 at 2019-09-09 23:30:00 +0700
+Processing by RequestController#connection as HTML
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 242ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
